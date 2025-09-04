@@ -1,5 +1,4 @@
 import { useState, useEffect } from 'react';
-import App from '../App.tsx';
 
 const Navbar = () => {
   const [isMobileMenuOpen, setIsMobileMenuOpen] = useState(false);

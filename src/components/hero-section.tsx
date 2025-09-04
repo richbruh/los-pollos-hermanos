@@ -19,23 +19,6 @@ const HeroSection = () => {
     return () => window.removeEventListener('mousemove', handleMouseMove);
   }, []);
 
-  const features = [
-    {
-      icon: "🍗",
-      title: "Fresh Daily",
-      description: "Made with 11 secret herbs & spices"
-    },
-    {
-      icon: "🚀",
-      title: "Fast Delivery",
-      description: "Hot & fresh to your door in 30 mins"
-    },
-    {
-      icon: "⭐",
-      title: "Premium Quality",
-      description: "Family recipe since 1989"
-    }
-  ];
 
   return (
     <section className="relative min-h-[120vh] overflow-hidden bg-[#021F59] pt-16 lg:pt-20">
