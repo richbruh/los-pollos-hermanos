@@ -1,4 +1,3 @@
-import { useState } from 'react'
 import Navbar from './components/navbar.tsx'
 import HeroSection from './components/hero-section.tsx'
 import Chatbot from './components/chatbot.tsx'
